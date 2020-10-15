@@ -1,0 +1,42 @@
+// WooCommerce Cart Icon CSS 
+
+
+
+.cart-contents {
+    position: relative;
+    display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.cart-contents:before {
+    font-family:'FontAwesome';
+    font-weight: 700;	
+    content: "\f07a" !important;
+    color: $black;
+}
+
+.cart-contents:hover:before {
+	color: $pink !important;
+}
+
+.cart-contents-count {
+	position: absolute;
+    	top: 20px;
+   	right: 4px;
+   	transform: translateY(-105%) translateX(25%);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 18px;
+	height: 18px;
+   	width: 18px;
+	vertical-align: middle;
+	text-align: center;
+	color: map_get($theme-colors, 'danger');
+
+	border-radius: 50%;
+	border: 1px solid $pink;
+	background-color: $white;
+}

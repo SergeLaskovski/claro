@@ -1,0 +1,31 @@
+{
+  "name": "claro",
+  "version": "1.0.0",
+  "main": "../header.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "css": "node-sass -r scss/style.scss ../css/claro.css --output-style compressed",
+    "watch": "onchange \"scss/*.scss\" --  npm run css"
+  },
+  "author": "Serge Laskovski",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "onchange": "^7.0.2",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "css-loader": "^3.5.3",
+    "exports-loader": "^0.7.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "description": "Claro design shop"
+}

@@ -1,0 +1,29 @@
+/*footer*/
+
+.bg-footer{
+  background-color: $bg-footergrey;
+}
+.footer-boder{
+  border: 3px solid $black;
+}
+
+
+.footer-nav a,
+.footer-nav a:visited {
+  color: $txt-grey;
+  text-decoration: none;
+  line-height: 2em;
+}
+.footer-nav a:hover {
+  color: $pink;
+  text-decoration: none;
+}
+.footer-copy{
+  border-top: 2px solid $lightgrey;
+  border-bottom: 2px solid $lightgrey;
+}
+
+hr .footer-shadow{
+    border-top: 1px solid $pink;
+
+}
